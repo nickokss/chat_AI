@@ -21,11 +21,24 @@
           <span>Respuesta del bot</span>
         </li>
 
-        <li class="mesagge bot">
+        <li class="mesagge user">
           <span>Tú</span>
           <span>Respuesta del usuario</span>
         </li>
       </ul>
     </main>
+
+    <form>
+        <input name="message" placeholder="Escribe tu mensaje aquí...">
+        <button>Enviar</button>
+    </form>
+
+    <!--El template es un elemento que no se pinta en pantalla solo esta ahi para recuperar los datos y pintarlos-->
+    <template id="message-template">
+         <li class="mesagge">
+          <span></span>
+          <span></span>
+        </li>
+    </template>
 </body>  
 </html>
